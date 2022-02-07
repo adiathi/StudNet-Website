@@ -34,9 +34,11 @@
     <link rel="stylesheet" href="assets/css/Team-Clean.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
     <link rel="stylesheet" href="assets/css/White-Footer.css">
+    <link rel="stylesheet" type="text/css" href="personalstyle.css">
 </head>
 
 <body class="text-capitalize text-black-50">
+    <!--Navigation Section-->
     <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light bg-gradient border-white border rounded-0 shadow-sm navigation-clean" style="height: 64px;transform-origin: top;background: var(--bs-white);padding: 0px 0px;margin: -4px;">
         <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler bg-light border rounded-circle border-light shadow-sm justify-content-start" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img class="img-fluid" id="logo" src="assets/img/logo2.png" height="50" width="130">
             <div class="collapse navbar-collapse text-info bg-light" id="navcol-1" style="background: var(--bs-white);">
@@ -52,13 +54,41 @@
             <div></div>
         </div>
     </nav>
-    <div class="text-start p-5 mb-4 round-3 position-relative" id="jumbotron" style="background: var(--bs-light);transform-origin: top;height: 411.917px;margin: 2px 0px 24px;margin-top: 65px;">
-        <div class="container-fluid py-5" id="promoContainer" style="z-index: 999999;height: 293.917px;margin: 15px;padding: 23px 12px;font-size: 14px;transform: translate(-29px);">
-            <h1 class="display-5 fw-bold" style="font-family: 'Balsamiq Sans', serif;">STUDNET</h1>
-            <p class="col-md-8 fs-4" style="font-family: 'Balsamiq Sans', serif;">Rethink and Relearn Your Degree</p><button class="btn btn-primary btn-sm" type="button" style="border-radius: 48px;font-size: 25px;background: var(--bs-success);font-family: Acme, sans-serif;width: 126.75px;border-width: 0px;">Join Us</button>
-            <div></div>
-        </div>
-    </div>
+    <!--navigation barr end-->
+    <!--Promo seaction.....-->
+    <section class="pt-4 pt-md-11 promopart" >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-5 col-lg-6 order-md-2">
+  
+              <!-- Image -->
+              <img src="Images/PromoLogo.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100">
+  
+            </div>
+            <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
+  
+              <!-- Heading -->
+              <h1 class="display-3 text-center text-md-start">
+                Welcome to <span class="text-primary">StudNet</span> <br>
+                
+              </h1>
+  
+              <!-- Text -->
+              <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+                Rethink and Relearn your degree    
+            </p>
+  
+              <!-- Buttons -->
+              <div class="text-center text-md-start">
+                <button class="btn btn-primary btn-sm" type="button" style="border-radius: 48px;font-size: 25px;background: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;font-family: Acme, sans-serif;width: 126.75px;border-width: 0px;">Join Us</button>
+            </div>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+    <!--promo section end here-->
+    <!--features section-->
     <section class="features-boxed" style="background: var(--bs-gray-100);">
         <div class="container">
             <div class="intro">
@@ -105,6 +135,8 @@
             </div>
         </div>
     </section>
+    <!--Features section ends heer-->
+    <!--slider start here-->
     <div class="simple-slider">
         <div class="swiper-container">
             <div class="row" id="letseesection">
@@ -113,14 +145,20 @@
                 </div>
             </div>
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center center / cover no-repeat;"></div>
-                <div class="swiper-slide" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center center / cover no-repeat;"></div>
+                <div class="swiper-slide" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center center / cover no-repeat;">
+                    <img src="assets/img/mountain_bg.jpg" alt="">
+                </div>
+                <div class="swiper-slide" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center center / cover no-repeat;">
+                    <img src="assets/img/mountain_bg.jpg" alt="">
+                </div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
     </div>
+    <!--slider section ends here-->
+    <!--the team section-->
     <section class="team-clean">
         <div class="container">
             <div class="intro">
@@ -128,19 +166,19 @@
                 <p class="text-center"></p>
             </div>
             <div class="row people">
-                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/1.jpg">
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="Images/Kuldeep.png">
                     <h3 class="name">Kuldeep Ghildiyal<br></h3>
                     <p class="title">FOUNDER &amp; CEO</p>
                     <p class="description">The Brain of the company. He's responsible for Networking with other cool people and make relationships, create processes and strategies for startup. Most of the time you'll find him busy in meetings<br></p>
                     <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                 </div>
-                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/2.jpg">
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="Images/Pranjal bhalla.png">
                     <h3 class="name">Pranjal Bhalla<br></h3>
                     <p class="title">CO-FOUNDER &amp; COO&nbsp;</p>
                     <p class="description">The soul of the company. She's responsible for operations, management, and for reporting structures and operation controls to the company. Most of the time you'll find her scolding and teaching the Employees.<br></p>
                     <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                 </div>
-                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/3.jpg">
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="Images/Mohit.png">
                     <h3 class="name">Mohit</h3>
                     <p class="title">CO-FOUNDER &amp; CSO</p>
                     <p class="description">The muscle of the company. He Helps to formulate, facilitate and communicate the company's strategic initiatives and future goals. Most of the time you'll find him stalking the competitors<br></p>
@@ -149,6 +187,8 @@
             </div>
         </div>
     </section>
+    <!--team section -->
+    <!--footer section -->
     <footer class="footer-basic">
         <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
         <ul class="list-inline">
@@ -165,6 +205,7 @@
     <script src="assets/js/Buttons-With-Waves-Effect-1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
+    <!--Footer section -->
 </body>
 
 </html>
